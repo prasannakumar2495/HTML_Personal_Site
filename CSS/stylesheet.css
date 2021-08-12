@@ -1,0 +1,46 @@
+body{
+    background-color: cornsilk;
+}
+hr{
+    border-style: dotted;
+  }
+  p.copyright {
+    text-align: center;
+  }
+  form {
+    display: table;
+
+  }
+  label {
+    display: table-cell;
+    padding: 5px;
+  }
+  input {
+    display: table-cell;
+    padding: 5px;
+  }
+
+  .information * {
+    vertical-align: middle;
+  }
+
+  .range * {
+    vertical-align: middle;
+  }
+  div{
+    display: table;
+}
+.three {
+    display: table-row;
+}
+
+.one {
+    display: table-cell;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.two {
+    display: table-cell;
+    padding: 5px;
+}
