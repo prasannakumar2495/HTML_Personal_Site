@@ -12,12 +12,12 @@
 <body>
     Back to the →<a href="index.html">Home Page</a>←
     <br>
-    <pre>
+    <p>
         The full form of HTML is Hyper Text Markup Language. HTML is basically the skeleton of a website. HTML will be
         used to decide the structure of a website using a series of elements. We can create a website just wait just by
         using HTML but we cannot create a website just by using CSS for JavaScript. While creating a website HTML is
         mandatory.
-    </pre> <br>
+    </p> <br>
     There are so many tag elements in HTML (most of the HTML tag elements have closing except few). Few of them are as
     follows:
     <ul>
@@ -27,7 +27,7 @@
             closing.</li>
         <li>strong - Any word or sentence that is written in between this tag element will be displayed in bold
             showcasing that this is an important sentence.</li>
-    </ul>
+    </ul><br>
     <pre>
         The tag elements also consist of many attributes that are written within them which are usually defined use to
         define the style and various other properties.
@@ -38,6 +38,43 @@
             Anything that is written in between these lines will not be displayed in the code, but can be seen in the source code.
         -->
     </pre>
+    <ul>
+        Few of the attribute elements are as follows:
+        <li>style - This attribute is used to specify the font style, size and various other features of a particular
+            tag within HTML file.</li>
+        <li>align - This attribute is used to specify how a particular tag element should be aligned.</li>
+
+        Example:
+        <p style="text-align: center;font-weight: bold;">This is a text.</p>
+    </ul>
+    <br>
+    <p>
+        The full form of CSS is Cascading Style Sheets. This is used for styling the HTML elements internally within the
+        HTML file or we can also create an external CSS file and we can assign the styles globally to a bulk of HTML
+        files at a shot.
+    </p>
+    <pre>
+        Example: Assigning styles to multiple tag elements from a common external CSS file can be done as follows:
+
+        body{
+            background-color: cornsilk;
+        }
+        hr{
+            border-style: dotted;
+          }
+          p{
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+          }
+    </pre>
+    <p>
+        Once the external style sheet has been completed the user can link that particular external style sheet to all
+        the HTML files by using a tag element called as link.
+
+        Example:
+        link rel="stylesheet" href="CSS/stylesheet.css"
+    </p>
+
 </body>
 
 </html>
