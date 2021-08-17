@@ -4,6 +4,14 @@ body{
 hr{
     border-style: dotted;
   }
+  p{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+  }
   p.copyright {
     text-align: center;
   }
